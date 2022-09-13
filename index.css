@@ -14,4 +14,8 @@
 @import url(./blocks/face/__img/face__img.css);
 @import url(./blocks/face/__btn/face__btn.css);
 
-@import url(./blocks/services/services.css);
+@import url(./blocks/service/service.css);
+@import url(./blocks/service/__heading/service__heading.css);
+@import url(./blocks/service/__paragraphs/service__paragraphs.css);
+
+@import url(./blocks/footer/footer.css);

@@ -1,0 +1,9 @@
+.service__heading {
+  margin: 0 auto;
+  max-width: 340px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 50px;
+  line-height: 1;
+}
