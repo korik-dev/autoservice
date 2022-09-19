@@ -1,0 +1,11 @@
+.services__subheading {
+  padding-bottom: 10px;
+  margin: 0 0 15px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  color: #181819;
+  font-size: 36px;
+  line-height: 1;
+  text-align: left;
+  border-bottom: 2px solid #181819;
+}

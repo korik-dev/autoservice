@@ -1,0 +1,10 @@
+.about__paragraph {
+  max-width: 1385px;
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  color: #f8f9fa;
+  font-size: 28px;
+  line-height: 1.15;
+  text-align: center;
+}

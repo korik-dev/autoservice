@@ -1,0 +1,6 @@
+.services__columns {
+  padding: 0 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

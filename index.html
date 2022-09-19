@@ -1,72 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" style="scroll-behavior: smooth;">
 <head>    
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Автосервис</title>
+  <title>АВЕ-АВТО</title>
   <link rel="stylesheet" href="./index.css">
 </head>
 
-<body class="content">
-  <header class="header">
-    <img class="header__logo" src="./images/logo.svg" alt="лого">
+<body class="page">
+  <header class="header">    
     <nav class="header__nav">
-      <a class="header__link" href="#">Услуги</a>
-      <a class="header__link" href="#">Галерея</a>
-      <a class="header__link" href="#">Контакты</a>
-      <button class="header__btn">Заказать звонок</button>
+      <a class="header__link" href="#">АВЕ-АВТО</a>
+      <a class="header__link" href="#home">Главная</a>
+      <a class="header__link" href="#about">О нас</a>
+      <a class="header__link" href="#services">Услуги</a>
+      <a class="header__link" href="">Галерея</a>
+      <a class="header__link" href="">Реставрация</a>
+      <a class="header__link" href="">Контакты</a>
     </nav>
   </header>
 
-  <main>
-    <section class="face">
-      <div class="left-column">
-        <h1 class="face__heading">Ремонт автомобилей</h1>
-        <h2 class="face__caption">В нашем сервисном центре представлен широкий спектр услуг по ремонту автомобилей</h2>
-        <button class="face__btn">Оставить заявку</button>
+  <main class="main">
+    <div class="home" id="home">
+      <div class="home__center-section">
+        <h1 class="home__heading">Автосервис высшего класса</h1>
+        <p class="home__paragraph">Любые виды работ для ваших авто и мотоциклов</p>
+        <p class="home__paragraph">Оставьте заявку и наши специалисты свяжутся с Вами для уточнения деталей</p>
+        <button class="home__btn">ОСТАВИТЬ ЗАЯВКУ</button>
       </div>
-      <div class="right-column" style="width: 650px;">
-        <img class="face__img" src="./images/car.png" alt="машина">
-      </div>
-    </section>
-    
-    <section class="service">
-      <h2 class="service__heading">Список услуг</h2>
-      <div class="service__paragraphs">
-        <p>Ремонт КПП</p>
-        <p>Ремонт AКПП</p>
-        <p>Ремонт стартеров, генераторов</p>
-        <p>Ремонт тормозной системы</p>
-        <p>Ремонт рулевого управления</p>
-        <p>Ремонт ДВС</p>
-        <p>Ремонт головки блока цилиндров</p>
-        <p>Установка автомагнитол</p>
-        <p>Развал-схождение колес</p>      
-        <p>Балансировка колёс</p>
-        <p>Замена масла</p>
-        <p>Замена ремня и цепи ГРМ</p>
-        <p>Замена масляного фильтра</p>
-        <p>Замена воздушного фильтра</p>
-        <p>Замена топливного фильтра</p>
-        <p>Замена тормозной жидкости</p>
-        <p>Замена свечей зажигания</p>
-        <p>Замена поршневых колец</p>
-        <p>Замена радиатора</p>
-        <p>Замена сцепления</p>       
-        <p>Замена насоса охлаждающей жидкости</p>
-        <p>Замена масляного насоса</p>
-        <p>Замена жидкости ГУР</p>
-        <p>Регулировка клапанов</p>
-        <p>Кузовной ремонт</p>
-        <p>Полировка фар, кузова</p>
-        <p>Покраска кузова</p>
-        <p>Восстановление геометрии кузова</p>
-        <p>Предпродажная подготовка авто</p>
-        <p>Ремонт и реставрация ретро-автомобилей</p>
-      </div>
-    </section>
+    </div>
+
+    <div class="about" id="about">
+      <h2 class="about__heading">Кто мы?</h2>
+      <p class="about__paragraph">АВЕ-АВТО – команда профессионалов своего дела, которая вот уже больше 10 лет помогает своим клиентам решить любые проблемы с автомобилем или мотоциклом. Прямое сотрудничество с поставщиками запчастей обеспечивает быстрое выполнение работы.</p>
+      <img src="./images/about-img.jpg" alt="о нас" class="about__img">
+    </div>
+
+    <div class="services" id="services">
+      <div class="services__bg">
+        <h2 class="services__heading">Популярные услуги</h2>
+        <div class="services__columns">
+          <div class="services__column">
+            <h3 class="services__subheading">Автомобили</h3>
+            <p class="services__li">Установка аудио-оборудования</p>
+            <p class="services__li">Замена расходных жидкостей (масло, тормозная жидкость и тд.)</p>
+            <p class="services__li">Замена сцепления</p>
+            <p class="services__li">Замена радиатора</p>
+            <p class="services__li">Ремонт двигателя</p>
+            <p class="services__li">Ремонт ходовой части</p>
+            <p class="services__li">Ремонт пневмо-подвески</p>
+            <p class="services__li">Реcтаврация ретро-авто</p>
+          </div>
+  
+          <div class="services__column">
+            <h3 class="services__subheading">Мотоциклы</h3>
+            <p class="services__li">Кастомайзинг</p>
+            <p class="services__li">Ремонт тормозной системы</p>
+            <p class="services__li">Замена колёс и сцепления</p>
+            <p class="services__li">Покраска</p>
+            <p class="services__li">Аерография</p>
+            <p class="services__li">Ремонт двигателя</p>
+          </div>
+        </div>
+      </div>      
+    </div>
   </main>
 
-  <footer class="footer">
-  </footer>
+  <footer class="footer"></footer>  
 </body>

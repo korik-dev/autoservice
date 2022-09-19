@@ -1,0 +1,13 @@
+.home__paragraph {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  color: #f8f9fa;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.home__paragraph:nth-of-type(2) {
+  font-size: 28px;
+  font-weight: 400;
+}

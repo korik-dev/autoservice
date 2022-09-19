@@ -1,8 +1,26 @@
 .header__link {
-  font-family: 'Inter', 'Arial', sans-serif;
+  padding-left: 20px;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
+  color: #3F3F41;
   font-size: 20px;
-  color: #fff;
+  line-height: 1;
+  margin: 0;
   text-decoration: none;
-  outline: none;
+}
+
+.header__link:first-child {
+  padding: 0 13px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #181819;
+}
+.header__link:hover {  
+  transition: .4s ease-out;
+  transform: scale(1.08);
+  color: #000
+}
+
+.header__link:first-child:hover {
+  transform: none;
 }

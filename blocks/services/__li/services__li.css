@@ -1,0 +1,25 @@
+.services__li {
+  padding: 12px;
+  margin: 12px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  color: #181819;
+  font-size: 22px;
+  line-height: 1;
+  text-align: left;
+  border: .5px solid #9C9CA0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.services__li:last-child {
+  margin-bottom: 0;
+}
+
+.services__li:hover {
+  transition: .5s ease-out;
+  transform: scale(1.08);
+  color: #f8f9fa;
+  background-color: #0072f5;
+  border-color: #0072f5;
+}
